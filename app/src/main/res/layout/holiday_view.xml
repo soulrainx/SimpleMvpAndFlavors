@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/holiday_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/holiday_view_date"
+        android:layout_alignStart="@+id/holiday_view_date"
+        android:layout_below="@+id/holiday_view_date"
+        android:layout_marginTop="9dp"
+        android:textSize="22sp"
+        tools:text="dia de los inocentes" />
+
+    <ImageView
+        android:id="@+id/holiday_view_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/calendar" />
+
+    <TextView
+        android:id="@+id/holiday_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/holiday_view_img"
+        android:layout_toRightOf="@+id/holiday_view_img"
+        android:textSize="22sp"
+        tools:text="10 de Enero de 2018" />
+</RelativeLayout>

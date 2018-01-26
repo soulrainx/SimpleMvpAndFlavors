@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mvp Architecture sample</string>
+    <string name="show_me_the_holidays_for_month">Show me the holidays for month:</string>
+    <string name="and_year">and year:</string>
+    <string name="and_country">and country:</string>
+    <string name="search">Search</string>
+    <string name="todo">TODO</string>
+</resources>
